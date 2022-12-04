@@ -51,7 +51,7 @@ submit.addEventListener('click', (event) => {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
-              'Authorization': 'Bearer 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',
+              'Authorization': 'Bearer',
             },
             body: JSON.stringify({
               prompt: userInput,
